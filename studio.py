@@ -8,7 +8,7 @@ from datetime import datetime
 # 🔑 API KEY UPDATED
 # ==========================================
 # The new key you provided has been added.
-os.environ["REPLICATE_API_TOKEN"] =  st.secrets["r8_1l76P4pdTO3fOjr5sbiyAUCLCdNMIrp2jn0BM"]
+os.environ["REPLICATE_API_TOKEN"] =  st.secrets["REPLICATE_API_TOKEN"]
 
 # ==========================================
 # ⚙️ APP CONFIGURATION
@@ -142,5 +142,6 @@ with tab2:
 
 st.markdown("---")
 st.caption("Seedream 4 Studio | Ready to Run")
+
 
 
